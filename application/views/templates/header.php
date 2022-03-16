@@ -24,9 +24,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
                     <a class="nav-link" href="<?= base_url(); ?>">Beranda <span class="sr-only"></span></a>
                     <a class="nav-link" href="<?= base_url('mahasiswa'); ?>">Mahasiswa</a>
+                    <a class="nav-link" href="<?= base_url('peoples'); ?>">People</a>
                     <a class="nav-link" href="#">Tentang</a>
                 </div>
             </div>
